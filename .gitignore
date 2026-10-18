@@ -1,0 +1,59 @@
+# Dependency directories (keep package and lock files tracked)
+node_modules/
+vendor/
+# Local environment and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local.php
+php.ini
+.user.ini
+# Database exports and local connection diagnostics
+# Keep intentional schema/migration SQL files tracked.
+/present_sir_db.sql
+/test-db.php
+*.sql.gz
+*.sql.bz2
+*.sql.xz
+# Uploaded content and generated runtime files
+/uploads/*
+!/uploads/.gitkeep
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/cache/
+/tmp/
+/temp/
+*.log
+# Backups and packaged copies
+/backups/
+*.bak
+*.backup
+*.old
+*.orig
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+# Editor, operating-system, and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+# Generated test and tooling output
+/coverage/
+.phpunit.cache/
+.phpunit.result.cache
+.php-cs-fixer.cache
